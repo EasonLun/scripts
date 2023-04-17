@@ -1,6 +1,8 @@
 import re
 from urllib.parse import unquote
 
+# 磐石第四轮培训考试题目IRE2脚本
+
 lines = []
 with open(r'C:\Users\yibo\Desktop\access.log', 'r') as f:
     raw_lines = f.readlines()
